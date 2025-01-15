@@ -8,7 +8,6 @@ import back_button from './back.png'
 import play_button from './play.png'
 import next_button from './next.png'
 import loop_icon from './loop.png'
-import plays from './plays.png'
 import mic from './mic.png'
 import queue from './queue.png'
 import speakers from './speakers.png'
@@ -34,7 +33,6 @@ import arrow1 from './arrow1.png'
 import arrow2 from './arrow2.png'
 import pause_button from './pause.png'
 export const assets =  {
-  plays,
   clock_icon,
   arrow1,
   arrow2,
