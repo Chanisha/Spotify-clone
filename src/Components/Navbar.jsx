@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <>
       <div className="flex justify-between items-center w-full font-semibold px-4 py-3 bg-black text-white">
-        {/* Navigation Arrows */}
+
         <div className="flex items-center gap-2">
           <img
             onClick={() => Navigate(-1)}
@@ -24,7 +24,6 @@ const Navbar = () => {
           />
         </div>
 
-        {/* Search Bar */}
         <div className="flex items-center relative w-full max-w-[600px] mx-4">
           <img
             src={assets.search_icon}
@@ -38,7 +37,6 @@ const Navbar = () => {
           />
         </div>
 
-        {/* Auth Buttons */}
         <div className="flex items-center gap-2">
           <p className="bg-white text-black text-sm font-bold px-4 py-2 rounded-full hidden md:block cursor-pointer hover:bg-gray-200">
             Log in

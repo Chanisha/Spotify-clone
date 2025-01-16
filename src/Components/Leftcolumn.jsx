@@ -4,16 +4,14 @@ import { assets } from '../assets/assets';
 const Leftcolumn = () => {
   return (
     <div className="w-full lg:w-[27%] h-full p-2 flex-col text-white flex">
-      {/* Spotify Logo */}
       <div className="bg-black h-[10%] lg:h-[15%] flex-col rounded flex justify-center items-center lg:justify-around">
         <div className="flex items-center pl-7 cursor-pointer gap-3">
           <img className="w-9" src={assets.Spotify_logo} alt="Spotify Logo" />
         </div>
       </div>
 
-      {/* Content Section */}
+
       <div className="bg-[#121212] flex-grow rounded mt-4">
-        {/* Your Library Section */}
         <div className="p-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
             <img className="w-6" src={assets.library_icon} alt="Library Icon" />
@@ -24,7 +22,6 @@ const Leftcolumn = () => {
           </div>
         </div>
 
-        {/* Create Playlist Section */}
         <div className="m-2 rounded font-semibold flex p-3 bg-[#242424] flex-col items-start justify-start pl-4 gap-1">
           <h1>Create your first playlist</h1>
           <p className="font-light text-sm">It's easy, we'll help you</p>
@@ -33,7 +30,6 @@ const Leftcolumn = () => {
           </button>
         </div>
 
-        {/* Footer Links Section */}
         <div className="mt-4 space-y-4">
           <div className="text-xs cursor-pointer m-2 rounded font-semibold flex text-gray-400 bg-[#121212] items-center pl-4 gap-8">
             <h1>Legal</h1>

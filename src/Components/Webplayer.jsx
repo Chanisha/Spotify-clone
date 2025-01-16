@@ -8,7 +8,6 @@ const Webplayer = () => {
 
   return (
     <div className="bg-black flex flex-col md:flex-row justify-center md:justify-between items-center text-white px-4 py-2 md:h-[10%] gap-4 md:gap-6">
-      {/* Song Information */}
       <div className="flex items-center gap-4">
         <img
           className="w-12 h-12 md:w-14 md:h-14 rounded-md object-cover"
@@ -18,7 +17,7 @@ const Webplayer = () => {
         <h1 className="text-sm md:text-base font-semibold truncate max-w-[150px] md:max-w-[250px]">{song.name}</h1>
       </div>
 
-      {/* Player Controls */}
+
       <div className="flex flex-col items-center gap-2 w-full md:w-auto">
         <div className="flex gap-6 justify-center">
           <img className="w-4 md:w-5 cursor-pointer" src={assets.shuffle_icon} alt="Shuffle" />
@@ -71,7 +70,7 @@ const Webplayer = () => {
         </div>
       </div>
 
-      {/* Additional Controls (Visible on Larger Screens) */}
+
       <div className="hidden lg:flex gap-2 items-center opacity-75">
         <img className="w-4 md:w-5" src={assets.plays} alt="Plays" />
         <img className="w-4 md:w-5" src={assets.mic} alt="Mic" />
