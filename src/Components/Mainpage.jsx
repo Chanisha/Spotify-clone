@@ -7,7 +7,7 @@ const Mainpage = () => {
   return (
     <div className='bg-[#121212] text-white px-4 rounded pt-5 w-[100%] overflow-auto lg:w-[85%] lg:ml-0'>
       <Routes>
-        <Route path='/' element={<Homepage/>}/>
+        <Route path='/' element={<Homepage/>}/> 
         <Route path='/album/:id' element={<Albumpage/>}/>
       </Routes>
     </div>

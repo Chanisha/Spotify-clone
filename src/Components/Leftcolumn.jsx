@@ -39,7 +39,6 @@ const Leftcolumn = () => {
         <div className=" text-xs ml-2 mb-4 cursor-pointer pt-4 rounded font-semibold flex text-white bg-[#121212] flex-row items-center justify-start pl-4 gap-5">
           <h1>Cookies</h1>
         </div>
-        <button className='py-1 ml-5 px-3 text-white bg-black border font-semibold border-white rounded-full mt-3'>English</button>
       </div>  
     </div> 
   )
